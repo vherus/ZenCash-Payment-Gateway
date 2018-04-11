@@ -1,6 +1,7 @@
 # vherus/ZenCash-Payment-Gateway
 
 [![Build Status](https://travis-ci.org/vherus/ZenCash-Payment-Gateway.svg?branch=master)](https://travis-ci.org/Vherus/ZenCash-Payment-Gateway)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/vherus/ZenCash-Payment-Gateway/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/vherus/ZenCash-Payment-Gateway/?branch=master)
 
 Payment gateway package for ZenCash integrations.
 
