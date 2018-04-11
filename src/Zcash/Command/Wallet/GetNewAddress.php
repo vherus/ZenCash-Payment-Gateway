@@ -4,7 +4,7 @@ namespace ZenCash\PaymentGateway\Zcash\Command\Wallet;
 
 use ZenCash\PaymentGateway\Zcash\Command;
 
-class GetNewAddress implements Command
+final class GetNewAddress implements Command
 {
     private const METHOD = 'getnewaddress';
 
