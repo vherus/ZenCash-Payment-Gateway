@@ -1,12 +1,12 @@
 {
-    "name": "vherus/package-bootstrap",
-    "description": "Bootstrap for developing PHP>=7.2 packages.",
+    "name": "vherus/ZenCash-Payment-Gateway",
+    "description": "Payment gateway package for ZenCash integrations.",
     "license": "MIT",
     "authors": [
         {
             "name": "Nathan King (vherus)",
             "role": "Developer",
-            "email": "nathanking3590@gmail.com"
+            "email": "nathan@zensystem.io"
         }
     ],
     "require": {
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Vherus\\Bootstrap\\": ["tests/", "src/"]
+            "ZenCash\\PaymentGateway\\": ["tests/", "src/"]
         }
     },
     "require-dev": {

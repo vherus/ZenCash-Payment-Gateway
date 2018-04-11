@@ -1,4 +1,6 @@
-# vherus/package-bootstrap
+# vherus/ZenCash-Payment-Gateway
+
+Payment gateway package for ZenCash integrations.
 
 ### Easy Mode Pre-requisites
 
@@ -14,7 +16,7 @@ The setup script creates a Composer docker container to install project dependen
 You're welcome to install `PHP >= 7.2` and `PHPUnit` on your local machine instead if you want to go hardcore.
 
 ### License
-This program is distributed under an [MIT License](https://github.com/vherus/package-bootstrap/raw/master/LICENSE).
+This program is distributed under an [MIT License](https://github.com/vherus/ZenCash-Payment-Gateway/raw/master/LICENSE).
 
 ### Disclaimer
 
