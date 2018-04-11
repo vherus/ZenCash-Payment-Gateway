@@ -1,5 +1,7 @@
 # vherus/ZenCash-Payment-Gateway
 
+[![Build Status](https://travis-ci.org/vherus/ZenCash-Payment-Gateway.svg?branch=master)](https://travis-ci.org/Vherus/ZenCash-Payment-Gateway)
+
 Payment gateway package for ZenCash integrations.
 
 ### Easy Mode Pre-requisites
