@@ -7,21 +7,25 @@ use ZenCash\PaymentGateway\Zcash\Command;
 final class GetReceivedByAddress implements Command
 {
     private const METHOD = 'getreceivedbyaddress';
+    private $address;
+    private $confirmed;
 
-    /** @var mixed[]|null */
-    private $params;
-
-    public function __construct(?array $params)
+    public function __construct(string $address, int $confirmed = 1)
     {
-        $this->params = $params;
+        $this->address = $address;
+        $this->confirmed = $confirmed;
     }
 
     public function jsonSerialize(): object
     {
-        return (object) array_merge([
+        return (object) [
             'jsonrpc' => Command::JSON_RPC_VERSION,
             'id'      => Command::ID,
             'method'  => self::METHOD,
-        ], !is_null($this->params) ? ['params' => $this->params] : []);
+            'params' => (object) [
+                $this->address,
+                $this->confirmed
+            ]
+        ];
     }
 }
