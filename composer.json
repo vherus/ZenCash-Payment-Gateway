@@ -12,7 +12,8 @@
     "require": {
         "php": ">=7.2",
         "ext-curl": "*",
-        "guzzlehttp/guzzle": "^6.3"
+        "guzzlehttp/guzzle": "^6.3",
+        "guzzlehttp/psr7": "^1.4"
     },
     "config": {
         "vendor-dir": "src/vendor"
