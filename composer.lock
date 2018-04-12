@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1d39a8b079263fede3f4b23b82f9fc7c",
+    "content-hash": "29095c3f912b597b6dcf0b9bbb7c086f",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -236,6 +236,53 @@
                 "response"
             ],
             "time": "2016-08-06T14:39:51+00:00"
+        },
+        {
+            "name": "vherus/zencash-rpc-client",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vherus/ZenCash-Rpc-Client.git",
+                "reference": "8f301aeff06cb15c480d446037868b66606f66d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vherus/ZenCash-Rpc-Client/zipball/8f301aeff06cb15c480d446037868b66606f66d1",
+                "reference": "8f301aeff06cb15c480d446037868b66606f66d1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "guzzlehttp/guzzle": "^6.3",
+                "guzzlehttp/psr7": "^1.4",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0",
+                "squizlabs/php_codesniffer": "^3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ZenCash\\Rpc\\": [
+                        "tests/",
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nathan King (vherus)",
+                    "email": "nathan@zensystem.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "ZenCash PHP RPC client.",
+            "time": "2018-04-12T18:01:58+00:00"
         }
     ],
     "packages-dev": [
@@ -1754,8 +1801,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.2",
-        "ext-curl": "*"
+        "php": ">=7.2"
     },
     "platform-dev": []
 }

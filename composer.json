@@ -1,5 +1,5 @@
 {
-    "name": "vherus/ZenCash-Payment-Gateway",
+    "name": "vherus/zencash-payment-gateway",
     "description": "Payment gateway package for ZenCash integrations.",
     "license": "MIT",
     "authors": [
@@ -11,9 +11,7 @@
     ],
     "require": {
         "php": ">=7.2",
-        "ext-curl": "*",
-        "guzzlehttp/guzzle": "^6.3",
-        "guzzlehttp/psr7": "^1.4"
+        "vherus/zencash-rpc-client": "^1.0"
     },
     "config": {
         "vendor-dir": "src/vendor"
